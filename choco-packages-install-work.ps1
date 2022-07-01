@@ -70,3 +70,4 @@ choco upgrade visualstudio2022-workload-data # Data storage and processing
 
 ### VS Extentsion - Extras
 # choco upgrade visualstudio2022-workload-azurebuildtools
+
