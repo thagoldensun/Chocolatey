@@ -6,3 +6,4 @@ choco feature enable -n allowGlobalConfirmation
 
 choco upgrade discord
 choco upgrade powershell-core #msi
+choco upgrade 7zip #exe
