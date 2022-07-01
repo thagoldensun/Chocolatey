@@ -4,4 +4,4 @@ choco feature enable -n allowGlobalConfirmation
 
 ## Personal Applications
 
-choco install discord
+choco upgrade discord

@@ -37,9 +37,9 @@ choco upgrade vscode-csharp
 
 choco upgrade postman
 
-# $visualStudioInstallParams = "--passive --norestart"
+# $visualStudioInstallParams = "--add Microsoft.NetCore.Component.Runtime.3.1"
 # see https://docs.microsoft.com/en-us/visualstudio/install/use-command-line-parameters-to-install-visual-studio?view=vs-2022
-choco upgrade visualstudio2022enterprise # $visualStudioInstallParams
+choco upgrade visualstudio2022enterprise #$visualStudioInstallParams
 
 ## Extensions for Visual Studio
 # Alternatively, you can provide these as install parameters for VS: https://docs.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-enterprise?view=vs-2022&preserve-view=true
